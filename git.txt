@@ -1,0 +1,17 @@
+1. create repository in https://github.com
+
+2. excute bellow commands in git bash 
+
+git config --global user.name "xulei33"
+git config --global user.email "xulei33@outlook.com"
+cho "# sas" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/xulei33/sas.git
+git push -u origin master
+
+3. add file
+git add .
+git commit -m "comments"
+git push -u origin master
